@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Generator</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="angin">
+        
+    </div>
+
+    <div class="container">
+        <h1 class="header">Card Generator</h1>
+        
+        <div class="input">
+            <input type="text" id="title" placeholder="Card Title">
+            <textarea type="text" id="cardDesc" placeholder="Description"></textarea>
+            <input type="file" id="cardImage" accept=".jpg, .jpeg, .png">
+            <button onclick="tambahGambar(event)" id="submit">Add New Card</button>
+        </div>        
+    </div>
+
+    <div class="card-container"></div>
+    
+    
+</body>
+</html>
